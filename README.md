@@ -1,3 +1,43 @@
+# 贾豪睿 · Haorui Jia 的个人主页
+
+基于 HugoBlox Academic CV 模板，默认中文，提供英文版本。中文路径为 `/`，英文路径为 `/en/`。
+
+## 日常修改哪些文件
+
+| 内容 | 文件 |
+| --- | --- |
+| 中文姓名、简介、学校、研究兴趣、教育经历和联系方式 | `data/authors/me.yaml` |
+| 对应英文资料 | `data/en/authors/me.yaml` |
+| 中文首页栏目、标题和联系文字 | `content/zh/_index.md` |
+| 英文首页栏目、标题和联系文字 | `content/en/_index.md` |
+| 中英文导航、网站标题和搜索引擎简介 | `config/_default/languages.yaml` |
+| 默认语言、正式网址 | `config/_default/hugo.yaml` |
+| 外观、明暗模式、页脚 | `config/_default/params.yaml` |
+
+头像可放在 `assets/media/authors/me.jpg` 或 `me.png`，无需头像时可留空。添加照片时只保留一个同名图片文件。当前没有简历下载按钮；准备好真实简历后再添加。
+
+当前主页只显示简介、研究兴趣、教育经历及联系信息，不需要补齐论文、奖项或项目。
+原模板的 `content/blog/`、`content/projects/`、`content/publications/` 等文件和 `content/_index.md` 保留作格式参考；**网站只读取 `content/zh/` 和 `content/en/`，这些示例不会发布**。以后增加内容，请放入对应语言目录，并同步调整两种语言的导航与首页栏目。
+
+## 预览与部署
+
+使用 `hugoblox.yaml` 指定的 Hugo Extended 版本（当前为 0.162.0）、Go 和 Node.js 22，以及 `package.json` 指定的 pnpm：
+
+```bash
+pnpm install --frozen-lockfile
+pnpm dev
+```
+
+生产构建：`pnpm build`。
+
+已有 `.github/workflows/deploy.yml` 会在代码推送到 `main` 后运行 GitHub Pages 部署。仓库 Pages 的发布来源应设为 GitHub Actions；构建与部署成功后，正式地址为 https://jarhray.github.io/ 。本地修改本身不会发布网站。
+
+双语作者资料机制见 [HugoBlox 作者文档](https://hugoblox.com/docs/guide/building/authors)，多语言配置见 [Hugo 文档](https://gohugo.io/content-management/multilingual/)。
+
+---
+
+以下为原模板说明。
+
 # [The Academic CV That Gets You Hired](https://github.com/HugoBlox/hugo-theme-academic-cv)
 
 [![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/academic-cv?utm_source=github&utm_medium=readme&utm_content=preview)

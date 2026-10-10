@@ -13,7 +13,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "贾豪睿"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
@@ -21,11 +21,10 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox
-      Kit. Easily create your personal academic website."
+    description: "贾豪睿的个人主页 | Haorui Jia"
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
+      twitter: "" # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -88,9 +87,9 @@ hugoblox:
     # Menu alignment
     align: center # left | center | right
     # Feature toggles
-    search: true
+    search: false
     theme_toggle: true
-    theme_picker: true
+    theme_picker: false
     language_switcher: true
     # Call-to-action button
     cta:
@@ -115,7 +114,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
+    notice: "© {year} {name}"
     license:
       type: cc # cc | custom
       allow_derivatives: false
@@ -172,7 +171,7 @@ hugoblox:
   # Site search
   # ────────────────────────────────────────────────────────────────────────────
   search:
-    enable: true
+    enable: false
     # Trending/suggested search terms
     suggestions: []
     # Quick action shortcuts in search modal

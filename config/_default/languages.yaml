@@ -1,22 +1,39 @@
-# Languages
-#   Create a section for each of your site's languages.
-#   Documentation: https://docs.hugoblox.com/reference/language/
-
-# Default language
+zh:
+  locale: zh-Hans
+  weight: 1
+  contentDir: content/zh
+  title: 贾豪睿 | Haorui Jia
+  params:
+    hugoblox:
+      identity:
+        name: 贾豪睿
+        description: 贾豪睿，南京大学人工智能专业硕士研究生，关注机器人与具身智能。
+  menus:
+    main:
+    - name: 简介
+      url: '#about'
+      weight: 10
+    - name: 联系
+      url: '#contact'
+      weight: 20
+  label: 中文
 en:
-  locale: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
-
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  locale: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+  locale: en-US
+  weight: 2
+  contentDir: content/en
+  title: Haorui Jia | 贾豪睿
+  params:
+    hugoblox:
+      identity:
+        name: Haorui Jia
+        description: Haorui Jia, a master's student in Artificial Intelligence at
+          Nanjing University, interested in robotics and embodied intelligence.
+  menus:
+    main:
+    - name: About
+      url: '#about'
+      weight: 10
+    - name: Contact
+      url: '#contact'
+      weight: 20
+  label: English

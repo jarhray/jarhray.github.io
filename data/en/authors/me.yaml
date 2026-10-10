@@ -1,0 +1,36 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Haorui Jia
+  given: Haorui
+  family: Jia
+  alternate: 贾豪睿
+role: Master’s Student in Artificial Intelligence
+bio: 'I am Haorui Jia, a first-year master''s student in Artificial Intelligence at
+  the School of Intelligent Science and Technology, Nanjing University, where I began
+  my graduate studies in 2026. I studied Intelligent Science and Technology at Nanjing
+  University from 2022 to 2026.
+
+
+  My current interests are robotics and embodied intelligence. I am building my knowledge
+  in these areas and exploring research questions. Feel free to get in touch by email.
+
+  '
+affiliations:
+- name: School of Intelligent Science and Technology, Nanjing University
+links:
+- icon: at-symbol
+  url: mailto:hrjia@smail.nju.edu
+  label: Email
+- icon: brands/github
+  url: https://github.com/jarhray
+  label: GitHub
+interests:
+- Robotics
+- Embodied Intelligence
+education:
+- degree: Master’s studies in Artificial Intelligence (2026–present)
+  institution: Nanjing University
+- degree: Undergraduate studies in Intelligent Science and Technology (2022–2026)
+  institution: Nanjing University
