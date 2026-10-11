@@ -24,7 +24,7 @@ sections:
     text: 'I welcome conversations about robotics, embodied intelligence, and related learning and research topics.
 
 
-      Email: [hrjia@smail.nju.edu](mailto:hrjia@smail.nju.edu)
+      Email: [hrjia@smail.nju.edu.cn](mailto:hrjia@smail.nju.edu.cn)
 
 
       GitHub: [jarhray](https://github.com/jarhray)'

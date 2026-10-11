@@ -24,7 +24,7 @@ sections:
     text: '欢迎就机器人、具身智能及相关学习与研究话题交流。
 
 
-      邮箱: [hrjia@smail.nju.edu](mailto:hrjia@smail.nju.edu)
+      邮箱: [hrjia@smail.nju.edu.cn](mailto:hrjia@smail.nju.edu.cn)
 
 
       GitHub: [jarhray](https://github.com/jarhray)'
