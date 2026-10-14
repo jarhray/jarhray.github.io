@@ -1,5 +1,7 @@
 ---
 title: ''
+seo:
+  title: 'Haorui Jia | Nanjing University | Robotics & Embodied Intelligence'
 summary: Haorui Jia, a master's student in Artificial Intelligence at Nanjing University, interested in robotics and embodied intelligence.
 type: landing
 sections:

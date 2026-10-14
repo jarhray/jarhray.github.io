@@ -1,5 +1,7 @@
 ---
 title: ''
+seo:
+  title: '贾豪睿 Haorui Jia | 南京大学 | 机器人与具身智能'
 summary: 贾豪睿，南京大学人工智能专业硕士研究生，关注机器人与具身智能。
 type: landing
 sections:
