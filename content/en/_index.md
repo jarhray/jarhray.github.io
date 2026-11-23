@@ -20,6 +20,20 @@ sections:
     name:
       size: md
 - block: markdown
+  id: research
+  content:
+    title: Research
+    text: |-
+      ### [C2Dex: Contact-Consistent Reconstruction and Retargeting for Dexterous Manipulation from Monocular Video](https://k-jie.github.io/C2Dex/)
+
+      Jie Ren, Zhehao Jiang, Yinhong Yang, **Haorui Jia**, Han Jiang, Ben Li, Yao Yao, Cheng Lin, Qiu Shen, Zhenshan Bing, Xiao-Xiao Long, Xun Cao
+
+      arXiv preprint · 2026
+
+      [Project & demos](https://k-jie.github.io/C2Dex/) · [arXiv](https://arxiv.org/abs/2608.07045) · [GitHub](https://github.com/K-Jie/C2Dex_code)
+  design:
+    columns: '1'
+- block: markdown
   id: contact
   content:
     title: Contact

@@ -13,6 +13,9 @@ zh:
     - name: 简介
       url: '#about'
       weight: 10
+    - name: 研究成果
+      url: '#research'
+      weight: 15
     - name: 联系
       url: '#contact'
       weight: 20
@@ -33,6 +36,9 @@ en:
     - name: About
       url: '#about'
       weight: 10
+    - name: Research
+      url: '#research'
+      weight: 15
     - name: Contact
       url: '#contact'
       weight: 20
